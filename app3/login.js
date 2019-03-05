@@ -4,15 +4,15 @@
  * @Email: jinxiaojian@youxin.com
  * @LastEditors: 靳小健
  * @Date: 2019-03-04 17:56:25
- * @LastEditTime: 2019-03-05 16:05:54
+ * @LastEditTime: 2019-03-05 16:10:23
  */
 var fun_index = async (ctx, next) => {
   ctx.response.body = `
  <h1>登录</h1>
  <form action="/signin" method="post">
- <p>Name: <input name="name" type='text'></p>
- <p>Password: <input name="password" type="password"></p>
- <p><input type="submit" value="Submit"></p>
+ <p>姓名: <input name="name" type='text'></p>
+ <p>密码: <input name="password" type="password"></p>
+ <p><input type="submit" value="登录"></p>
 </form>
  `;
 };
